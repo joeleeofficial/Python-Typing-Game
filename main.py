@@ -27,7 +27,7 @@ while playing == True:
     print(Fore.GREEN+"Get Ready to type!"+Style.RESET_ALL)
     time.sleep(1)
     start = time.time()
-    sentence = random.choice(level1) + random.choice(level2) + random.choice(level3)
+    sentence = random.choice(level1) + random.choice(level2) + random.choice(level3) + random.choice(level4)
     win = False
     out = ''
     os.system('clear')
